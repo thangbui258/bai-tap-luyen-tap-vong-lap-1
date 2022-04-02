@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>in dãy số fibonaci</title>
+</head>
+<body>
+<p id="fbnc"></p>
+    <script>
+        let n = +prompt("nhap vao so trong day fbnc muốn in: ")
+        let a1 = 0;
+        let a2 = 1;
+        let a=1;
+        for (let i=1; i<=n; i++) {
+            document.getElementById("fbnc").innerHTML += a + "<br>";
+            a = a1 + a2;
+            a1= a2;
+            a2 = a;
+
+        }
+
+
+
+    </script>
+</body>
+</html>

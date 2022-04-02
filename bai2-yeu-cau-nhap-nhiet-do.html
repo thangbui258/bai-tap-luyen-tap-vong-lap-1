@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>yeu cau tang giam nhiet do</title>
+</head>
+<body>
+<script>
+    let t = +prompt("mời bạn nhâp nhiệt độ: ");
+    while (t > 100 || t < 20) {
+        if (t > 100) {
+            alert("yeu cau bạn Giảm nhiệt độ");
+            t = +prompt("mời bạn nhâp nhiệt độ: ");
+        } else if (t < 20) {
+            alert("yeu cau bạn Tăng nhiệt độ");
+            t = +prompt("mời bạn nhâp nhiệt độ: ");
+        }
+    }
+
+
+</script>
+</body>
+</html>
